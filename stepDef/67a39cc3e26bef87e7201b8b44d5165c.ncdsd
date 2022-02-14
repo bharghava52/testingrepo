@@ -1,0 +1,31 @@
+{
+  "id": "",
+  "description": "Given wait for the ui to load",
+  "scenarioId": "",
+  "pos": 0,
+  "dbConnectionTOs": [],
+  "dbsqlTOs": [],
+  "dbAssertTOs": [],
+  "uiTOs": [],
+  "uiAssertTOs": [],
+  "stepmobileUITOs": [
+    {
+      "id": "8UlAZFHX2X",
+      "paramId": "1idDr2NlEY",
+      "action": "waitForElementPresent",
+      "platform": "both",
+      "path": "Flutter UI",
+      "value": "2000",
+      "position": 0,
+      "parentStepId": "67a39cc3e26bef87e7201b8b44d5165c",
+      "params": []
+    }
+  ],
+  "stepAssertSettingTOs": [],
+  "stepRESTURLSettingTOs": [],
+  "stepWaitTimeTOs": [],
+  "stepMQSendTOs": [],
+  "stepMQAssertTOs": [],
+  "customProjectTOS": [],
+  "customCodeTOS": []
+}

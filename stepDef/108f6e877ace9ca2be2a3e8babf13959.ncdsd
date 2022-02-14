@@ -1,0 +1,75 @@
+{
+  "id": "",
+  "description": "Then go inside Relax app ui",
+  "scenarioId": "",
+  "pos": 0,
+  "dbConnectionTOs": [],
+  "dbsqlTOs": [],
+  "dbAssertTOs": [],
+  "uiTOs": [],
+  "uiAssertTOs": [],
+  "stepmobileUITOs": [
+    {
+      "id": "flp8kZ1wOL",
+      "paramId": "PasBuHTZxu",
+      "action": "click",
+      "platform": "both",
+      "path": "Chris Hemsworth",
+      "value": "",
+      "position": 0,
+      "parentStepId": "108f6e877ace9ca2be2a3e8babf13959",
+      "params": []
+    },
+    {
+      "id": "flp8kZ1wOL",
+      "paramId": "yIZJdbOQ9q",
+      "action": "click",
+      "platform": "both",
+      "path": "Let\u0027s begin",
+      "value": "",
+      "position": 0,
+      "parentStepId": "108f6e877ace9ca2be2a3e8babf13959",
+      "params": []
+    },
+    {
+      "id": "flp8kZ1wOL",
+      "paramId": "mXvJ3moM0x",
+      "action": "click",
+      "platform": "both",
+      "path": "Skip",
+      "value": "",
+      "position": 0,
+      "parentStepId": "108f6e877ace9ca2be2a3e8babf13959",
+      "params": []
+    },
+    {
+      "id": "flp8kZ1wOL",
+      "paramId": "8bshsQysi7",
+      "action": "sleep",
+      "platform": "both",
+      "path": "",
+      "value": "2000",
+      "position": 0,
+      "parentStepId": "108f6e877ace9ca2be2a3e8babf13959",
+      "params": []
+    },
+    {
+      "id": "flp8kZ1wOL",
+      "paramId": "bRU3HdmQyU",
+      "action": "gettext",
+      "platform": "both",
+      "path": "Welcome",
+      "value": "Welcome",
+      "position": 0,
+      "parentStepId": "108f6e877ace9ca2be2a3e8babf13959",
+      "params": []
+    }
+  ],
+  "stepAssertSettingTOs": [],
+  "stepRESTURLSettingTOs": [],
+  "stepWaitTimeTOs": [],
+  "stepMQSendTOs": [],
+  "stepMQAssertTOs": [],
+  "customProjectTOS": [],
+  "customCodeTOS": []
+}
