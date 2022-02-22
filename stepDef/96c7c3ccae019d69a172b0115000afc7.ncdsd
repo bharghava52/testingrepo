@@ -1,0 +1,54 @@
+{
+  "id": "",
+  "description": "Given ytest\u0027",
+  "scenarioId": "",
+  "pos": 0,
+  "dbConnectionTOs": [],
+  "dbsqlTOs": [],
+  "dbAssertTOs": [],
+  "uiTOs": [],
+  "uiAssertTOs": [],
+  "stepmobileUITOs": [
+    {
+      "id": "oFKgmiiYAf",
+      "paramId": "GGp3MfTL9O",
+      "action": "waitForElementPresent",
+      "platform": "both",
+      "path": "//android.widget.Button[@content-desc\u003d\"Keep using memorable information\"]",
+      "value": "10000",
+      "position": 0,
+      "parentStepId": "96c7c3ccae019d69a172b0115000afc7",
+      "params": []
+    },
+    {
+      "id": "oFKgmiiYAf",
+      "paramId": "qkmakpIWJx",
+      "action": "click",
+      "platform": "both",
+      "path": "//android.widget.Button[@content-desc\u003d\"Keep using memorable information\"]",
+      "value": "",
+      "position": 0,
+      "parentStepId": "96c7c3ccae019d69a172b0115000afc7",
+      "params": []
+    },
+    {
+      "id": "oFKgmiiYAf",
+      "paramId": "pLJeNfrfbQ",
+      "action": "sleep",
+      "platform": "both",
+      "path": "",
+      "value": "2000",
+      "position": 0,
+      "parentStepId": "96c7c3ccae019d69a172b0115000afc7",
+      "params": []
+    }
+  ],
+  "stepAssertSettingTOs": [],
+  "stepRESTURLSettingTOs": [],
+  "stepWaitTimeTOs": [],
+  "stepMQSendTOs": [],
+  "stepMQAssertTOs": [],
+  "customProjectTOS": [],
+  "customCodeTOS": [],
+  "mobileCustomCodeTOS": []
+}

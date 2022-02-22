@@ -1,0 +1,26 @@
+{
+  "id": "",
+  "description": "And fill data",
+  "scenarioId": "",
+  "pos": 0,
+  "dbConnectionTOs": [],
+  "dbsqlTOs": [],
+  "dbAssertTOs": [],
+  "uiTOs": [],
+  "uiAssertTOs": [],
+  "stepmobileUITOs": [],
+  "stepAssertSettingTOs": [],
+  "stepRESTURLSettingTOs": [],
+  "stepWaitTimeTOs": [],
+  "stepMQSendTOs": [],
+  "stepMQAssertTOs": [],
+  "customProjectTOS": [],
+  "customCodeTOS": [],
+  "mobileCustomCodeTOS": [
+    {
+      "id": "Z74bjlR89i",
+      "parentStepId": "a73888f9b23a46d94d8b44c1c437dcb5",
+      "customScript": "\n    import org.openqa.selenium.*;\n    import io.appium.java_client.*;\n\nimport java.util.ArrayList;\nimport java.util.HashMap;\nimport java.util.List;\nimport java.util.NoSuchElementException;\n    import java.io.*;\n    public class ClassZ74bjlR89i { \n        public static HashMap\u003cString,String\u003e runCustomMethod(AppiumDriver\u003c?\u003e webDriver,HashMap\u003cString,String\u003e stepParams,HashMap\u003cString,String\u003e environmentVariables,HashMap\u003cString,String\u003e jsonTags) throws Exception {\n            HashMap\u003cString,String\u003e stringStringHashMap\u003dnew HashMap\u003c\u003e();\n            // Please add your script hear. Do not exit or delete other lines\n            String MI\u003d\"BANKAPP\";\n            int j\u003d1;\n            for(int i\u003d1;i\u003c\u003d7;i++){\n                WebElement webElement\u003dnull;\n                try {\n                    webElement \u003d webDriver.findElementByXPath(\"//android.view.View[@content-desc\u003d\\\"\" + i + \"\\\"]\");\n                }catch (Exception  e){\n                   \n                }\n                if(webElement!\u003dnull){\n                    String target\u003d\"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.EditText[\"+j+\"]\";\n                    try{\n                      webDriver.findElement(By.xpath(target)).sendKeys(\"B\");  \n                    }catch(NoSuchElementException n){\n                        throw new Exception(\"Not found \" +target);\n                    }\n                    \n                    j++;\n                    if(j\u003d\u003d4){\n                        break;\n                    }\n                }\n            } \n            return stringStringHashMap;\n        }\n    }\n        "
+    }
+  ]
+}
