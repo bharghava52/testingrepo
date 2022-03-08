@@ -1,0 +1,65 @@
+{
+  "id": "",
+  "description": "Then balance should de deducted by amount NoCodeBDDN1",
+  "scenarioId": "",
+  "pos": 0,
+  "dbConnectionTOs": [],
+  "dbsqlTOs": [],
+  "dbAssertTOs": [],
+  "uiTOs": [],
+  "uiAssertTOs": [],
+  "stepmobileUITOs": [
+    {
+      "id": "kliiruiqXd",
+      "paramId": "p3Te5gAzgK",
+      "action": "waitForElementPresent",
+      "platform": "both",
+      "path": "Money Sent Successfully",
+      "value": "5000",
+      "position": 0,
+      "parentStepId": "28c2ec9fb60455eebc004ba7b788741b",
+      "params": []
+    },
+    {
+      "id": "kliiruiqXd",
+      "paramId": "C3TwDysn98",
+      "action": "gettext",
+      "platform": "both",
+      "path": "Money Sent Successfully",
+      "value": "Money Sent Successfully",
+      "position": 0,
+      "parentStepId": "28c2ec9fb60455eebc004ba7b788741b",
+      "params": []
+    },
+    {
+      "id": "kliiruiqXd",
+      "paramId": "knTkDVTlj7",
+      "action": "sleep",
+      "platform": "both",
+      "path": "",
+      "value": "2000",
+      "position": 0,
+      "parentStepId": "28c2ec9fb60455eebc004ba7b788741b",
+      "params": []
+    },
+    {
+      "id": "kliiruiqXd",
+      "paramId": "o4FTLlR4nT",
+      "action": "click",
+      "platform": "both",
+      "path": "OK",
+      "value": "",
+      "position": 0,
+      "parentStepId": "28c2ec9fb60455eebc004ba7b788741b",
+      "params": []
+    }
+  ],
+  "stepAssertSettingTOs": [],
+  "stepRESTURLSettingTOs": [],
+  "stepWaitTimeTOs": [],
+  "stepMQSendTOs": [],
+  "stepMQAssertTOs": [],
+  "customProjectTOS": [],
+  "customCodeTOS": [],
+  "mobileCustomCodeTOS": []
+}

@@ -1,0 +1,26 @@
+{
+  "id": "",
+  "description": "And user fills valid memorable information",
+  "scenarioId": "",
+  "pos": 0,
+  "dbConnectionTOs": [],
+  "dbsqlTOs": [],
+  "dbAssertTOs": [],
+  "uiTOs": [],
+  "uiAssertTOs": [],
+  "stepmobileUITOs": [],
+  "stepAssertSettingTOs": [],
+  "stepRESTURLSettingTOs": [],
+  "stepWaitTimeTOs": [],
+  "stepMQSendTOs": [],
+  "stepMQAssertTOs": [],
+  "customProjectTOS": [],
+  "customCodeTOS": [],
+  "mobileCustomCodeTOS": [
+    {
+      "id": "CKP8X8r2lr",
+      "parentStepId": "a18d096bf66bbd1af61949ab7ace5249",
+      "customScript": "                                            \n    import org.openqa.selenium.*;\n    import io.appium.java_client.*;\n\n    import java.util.ArrayList; \n    import java.util.HashMap;\n    import java.util.List;\n    import java.util.NoSuchElementException;\n    import java.io.*;\n    public class ClassCKP8X8r2lr { \n        public static HashMap\u003cString,String\u003e runCustomMethod(AppiumDriver\u003c?\u003e webDriver,HashMap\u003cString,String\u003e stepParams,HashMap\u003cString,String\u003e environmentVariables,HashMap\u003cString,String\u003e jsonTags) throws Exception{\n            HashMap\u003cString,String\u003e stringStringHashMap\u003dnew HashMap\u003c\u003e();\n            // Please add your script hear. Do not exit or delete other lines\n\n            String MI\u003d\"bankapp\";\n            int j\u003d1;\n            for(int i\u003d1;i\u003c\u003d7;i++){\n                WebElement webElement\u003dnull;\n                try {\n                    webElement \u003d webDriver.findElementByXPath(\"//android.view.View[@content-desc\u003d\\\"\" + i + \"\\\"]\");\n                }catch (Exception  e){ }\n                if(webElement!\u003dnull){\n                    String target\u003d\"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.EditText[\"+j+\"]\";\n                    try{\n                        WebElement WebElement1\u003dwebDriver.findElement(By.xpath(target));\n                        WebElement1.click();\n                        Thread.sleep(1000);\n                        WebElement1.sendKeys(MI.substring(i-1,i));\n                        Thread.sleep(1000);\n                        webDriver.navigate().back();\n                    }catch(NoSuchElementException n){\n                        throw new Exception(\"Not found \" +target);\n                    }\n                    j++;\n                    if(j\u003d\u003d4){\n                        \n                        break;\n                    }\n                }\n            }\n            WebElement webElement2 \u003d webDriver.findElementByAccessibilityId(\"login\");\n            webElement2.click();\n\n            return stringStringHashMap;\n        }\n    }\n        "
+    }
+  ]
+}

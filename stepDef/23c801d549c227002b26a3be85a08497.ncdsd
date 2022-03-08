@@ -1,0 +1,54 @@
+{
+  "id": "",
+  "description": "Then user should be navigated to webpage",
+  "scenarioId": "",
+  "pos": 0,
+  "dbConnectionTOs": [],
+  "dbsqlTOs": [],
+  "dbAssertTOs": [],
+  "uiTOs": [],
+  "uiAssertTOs": [],
+  "stepmobileUITOs": [
+    {
+      "id": "vtQhvgKRvO",
+      "paramId": "cz4SYP2dZf",
+      "action": "waitForElementPresent",
+      "platform": "both",
+      "path": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[2]/android.view.View[2]/android.widget.TextView[1]",
+      "value": "5000",
+      "position": 0,
+      "parentStepId": "23c801d549c227002b26a3be85a08497",
+      "params": []
+    },
+    {
+      "id": "vtQhvgKRvO",
+      "paramId": "6de5zlf9qE",
+      "action": "gettext",
+      "platform": "both",
+      "path": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[2]/android.view.View[2]/android.widget.TextView[1]",
+      "value": "Upgrade your account",
+      "position": 0,
+      "parentStepId": "23c801d549c227002b26a3be85a08497",
+      "params": []
+    },
+    {
+      "id": "vtQhvgKRvO",
+      "paramId": "LVPT8WJopS",
+      "action": "sleep",
+      "platform": "both",
+      "path": "",
+      "value": "2000",
+      "position": 0,
+      "parentStepId": "23c801d549c227002b26a3be85a08497",
+      "params": []
+    }
+  ],
+  "stepAssertSettingTOs": [],
+  "stepRESTURLSettingTOs": [],
+  "stepWaitTimeTOs": [],
+  "stepMQSendTOs": [],
+  "stepMQAssertTOs": [],
+  "customProjectTOS": [],
+  "customCodeTOS": [],
+  "mobileCustomCodeTOS": []
+}

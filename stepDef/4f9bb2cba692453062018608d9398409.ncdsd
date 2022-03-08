@@ -1,0 +1,142 @@
+{
+  "id": "",
+  "description": "When user sends amount NoCodeBDDN1",
+  "scenarioId": "",
+  "pos": 0,
+  "dbConnectionTOs": [],
+  "dbsqlTOs": [],
+  "dbAssertTOs": [],
+  "uiTOs": [],
+  "uiAssertTOs": [],
+  "stepmobileUITOs": [
+    {
+      "id": "rFueoGdbGd",
+      "paramId": "2MCsyPZqQW",
+      "action": "sleep",
+      "platform": "both",
+      "path": "Pay Tab 3 of 4",
+      "value": "2000",
+      "position": 0,
+      "parentStepId": "4f9bb2cba692453062018608d9398409",
+      "params": []
+    },
+    {
+      "id": "rFueoGdbGd",
+      "paramId": "Isf2hELwxy",
+      "action": "scroll",
+      "platform": "both",
+      "path": "",
+      "value": "(386,489),(100,489),(720,1600)",
+      "position": 0,
+      "parentStepId": "4f9bb2cba692453062018608d9398409",
+      "params": []
+    },
+    {
+      "id": "rFueoGdbGd",
+      "paramId": "VdoqqV5bvE",
+      "action": "sleep",
+      "platform": "both",
+      "path": "",
+      "value": "1000",
+      "position": 0,
+      "parentStepId": "4f9bb2cba692453062018608d9398409",
+      "params": []
+    },
+    {
+      "id": "rFueoGdbGd",
+      "paramId": "FNNICewDwo",
+      "action": "scroll",
+      "platform": "both",
+      "path": "",
+      "value": "(400,489),(100,489),(720,1600)",
+      "position": 0,
+      "parentStepId": "4f9bb2cba692453062018608d9398409",
+      "params": []
+    },
+    {
+      "id": "rFueoGdbGd",
+      "paramId": "1L7Nok2L8s",
+      "action": "waitForElementPresent",
+      "platform": "both",
+      "path": "//android.view.View[@content-desc\u003d\"\u003e View payment limits\"]/android.widget.EditText[1]",
+      "value": "5000",
+      "position": 0,
+      "parentStepId": "4f9bb2cba692453062018608d9398409",
+      "params": []
+    },
+    {
+      "id": "rFueoGdbGd",
+      "paramId": "uIh8Ee0eTI",
+      "action": "click",
+      "platform": "both",
+      "path": "//android.view.View[@content-desc\u003d\"\u003e View payment limits\"]/android.widget.EditText[1]",
+      "value": "",
+      "position": 0,
+      "parentStepId": "4f9bb2cba692453062018608d9398409",
+      "params": []
+    },
+    {
+      "id": "rFueoGdbGd",
+      "paramId": "kRUWGtVoVE",
+      "action": "type",
+      "platform": "both",
+      "path": "//android.view.View[@content-desc\u003d\"\u003e View payment limits\"]/android.widget.EditText[1]",
+      "value": "100",
+      "position": 0,
+      "parentStepId": "4f9bb2cba692453062018608d9398409",
+      "params": []
+    },
+    {
+      "id": "rFueoGdbGd",
+      "paramId": "1R6QyemZwS",
+      "action": "back",
+      "platform": "both",
+      "path": "",
+      "value": "",
+      "position": 0,
+      "parentStepId": "4f9bb2cba692453062018608d9398409",
+      "params": []
+    },
+    {
+      "id": "rFueoGdbGd",
+      "paramId": "6iLkqYKynI",
+      "action": "scroll",
+      "platform": "both",
+      "path": "",
+      "value": "(380,851),(386,489),(720,1600)",
+      "position": 0,
+      "parentStepId": "4f9bb2cba692453062018608d9398409",
+      "params": []
+    },
+    {
+      "id": "rFueoGdbGd",
+      "paramId": "gnweIGMoG1",
+      "action": "waitForElementPresent",
+      "platform": "both",
+      "path": "Send",
+      "value": "2000",
+      "position": 0,
+      "parentStepId": "4f9bb2cba692453062018608d9398409",
+      "params": []
+    },
+    {
+      "id": "rFueoGdbGd",
+      "paramId": "7JcSd5z6Qc",
+      "action": "click",
+      "platform": "both",
+      "path": "Send",
+      "value": "",
+      "position": 0,
+      "parentStepId": "4f9bb2cba692453062018608d9398409",
+      "params": []
+    }
+  ],
+  "stepAssertSettingTOs": [],
+  "stepRESTURLSettingTOs": [],
+  "stepWaitTimeTOs": [],
+  "stepMQSendTOs": [],
+  "stepMQAssertTOs": [],
+  "customProjectTOS": [],
+  "customCodeTOS": [],
+  "mobileCustomCodeTOS": []
+}

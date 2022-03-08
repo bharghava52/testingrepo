@@ -1,0 +1,76 @@
+{
+  "id": "",
+  "description": "When user selects Upgrade your current account",
+  "scenarioId": "",
+  "pos": 0,
+  "dbConnectionTOs": [],
+  "dbsqlTOs": [],
+  "dbAssertTOs": [],
+  "uiTOs": [],
+  "uiAssertTOs": [],
+  "stepmobileUITOs": [
+    {
+      "id": "RN7wfbQODZ",
+      "paramId": "ImSO3CMtmu",
+      "action": "sleep",
+      "platform": "both",
+      "path": "",
+      "value": "1000",
+      "position": 0,
+      "parentStepId": "9c7ffa0ef74b590fa37a41823f5d0819",
+      "params": []
+    },
+    {
+      "id": "RN7wfbQODZ",
+      "paramId": "eAOmUIkNf4",
+      "action": "scroll",
+      "platform": "both",
+      "path": "",
+      "value": "(386,489),(100,489),(720,1600)",
+      "position": 0,
+      "parentStepId": "9c7ffa0ef74b590fa37a41823f5d0819",
+      "params": []
+    },
+    {
+      "id": "RN7wfbQODZ",
+      "paramId": "gMzZXR87Nz",
+      "action": "sleep",
+      "platform": "both",
+      "path": "",
+      "value": "1000",
+      "position": 0,
+      "parentStepId": "9c7ffa0ef74b590fa37a41823f5d0819",
+      "params": []
+    },
+    {
+      "id": "RN7wfbQODZ",
+      "paramId": "ch8x5cC7wG",
+      "action": "waitForElementPresent",
+      "platform": "both",
+      "path": "Upgrade your current account",
+      "value": "4000",
+      "position": 0,
+      "parentStepId": "9c7ffa0ef74b590fa37a41823f5d0819",
+      "params": []
+    },
+    {
+      "id": "RN7wfbQODZ",
+      "paramId": "aLkIZ1mgXT",
+      "action": "click",
+      "platform": "both",
+      "path": "Upgrade your current account",
+      "value": "",
+      "position": 0,
+      "parentStepId": "9c7ffa0ef74b590fa37a41823f5d0819",
+      "params": []
+    }
+  ],
+  "stepAssertSettingTOs": [],
+  "stepRESTURLSettingTOs": [],
+  "stepWaitTimeTOs": [],
+  "stepMQSendTOs": [],
+  "stepMQAssertTOs": [],
+  "customProjectTOS": [],
+  "customCodeTOS": [],
+  "mobileCustomCodeTOS": []
+}

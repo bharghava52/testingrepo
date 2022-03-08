@@ -1,0 +1,54 @@
+{
+  "id": "",
+  "description": "Then user should not be logged in to the app",
+  "scenarioId": "",
+  "pos": 0,
+  "dbConnectionTOs": [],
+  "dbsqlTOs": [],
+  "dbAssertTOs": [],
+  "uiTOs": [],
+  "uiAssertTOs": [],
+  "stepmobileUITOs": [
+    {
+      "id": "rbB3MScexR",
+      "paramId": "S8F0yqmbtY",
+      "action": "waitForElementPresent",
+      "platform": "both",
+      "path": "//android.view.View[@content-desc\u003d\"Incorrect Memorable Information\"]",
+      "value": "5000",
+      "position": 0,
+      "parentStepId": "5b607a2eac793e033650aeafb37a576a",
+      "params": []
+    },
+    {
+      "id": "rbB3MScexR",
+      "paramId": "RXC9sPgCNw",
+      "action": "gettext",
+      "platform": "both",
+      "path": "//android.view.View[@content-desc\u003d\"Incorrect Memorable Information\"]",
+      "value": "Incorrect Memorable Information",
+      "position": 0,
+      "parentStepId": "5b607a2eac793e033650aeafb37a576a",
+      "params": []
+    },
+    {
+      "id": "rbB3MScexR",
+      "paramId": "7oxZvyHUZg",
+      "action": "sleep",
+      "platform": "both",
+      "path": "",
+      "value": "2000",
+      "position": 0,
+      "parentStepId": "5b607a2eac793e033650aeafb37a576a",
+      "params": []
+    }
+  ],
+  "stepAssertSettingTOs": [],
+  "stepRESTURLSettingTOs": [],
+  "stepWaitTimeTOs": [],
+  "stepMQSendTOs": [],
+  "stepMQAssertTOs": [],
+  "customProjectTOS": [],
+  "customCodeTOS": [],
+  "mobileCustomCodeTOS": []
+}
