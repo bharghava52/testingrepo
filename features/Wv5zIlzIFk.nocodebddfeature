@@ -6,16 +6,16 @@
   "scenarioTOS": [
     {
       "id": "biO6T7XBM8",
-      "description": "hgfh",
+      "description": "When user enters valid memorable information, user should be logged in to the app",
       "featureId": "Wv5zIlzIFk",
-      "createdTimeStamp": "2022-02-22T16:14:22.982+0530",
+      "createdTimeStamp": "2022-03-09T17:03:26.076+0530",
       "pos": 65535,
       "stepTOS": [
         {
           "id": "rX3atMPNtu",
-          "description": "Given ytest\u0027",
+          "description": "Given user launches bank app",
           "scenarioId": "biO6T7XBM8",
-          "createdTimeStamp": "2022-02-22T16:14:29.624+0530",
+          "createdTimeStamp": "2022-03-09T17:02:47.517+0530",
           "pos": 65535,
           "dbConnectionTOs": [],
           "dbsqlTOs": [],
@@ -29,14 +29,13 @@
           "stepMQSendTOs": [],
           "stepMQAssertTOs": [],
           "customProjectTOS": [],
-          "customCodeTOS": [],
-          "mobileCustomCodeTOS": []
+          "customCodeTOS": []
         },
         {
           "id": "1bbkL9kP9K",
-          "description": "And fill data",
+          "description": "And user fills valid memorable information",
           "scenarioId": "biO6T7XBM8",
-          "createdTimeStamp": "2022-02-22T16:25:31.225+0530",
+          "createdTimeStamp": "2022-03-09T17:04:08.257+0530",
           "pos": 131070,
           "dbConnectionTOs": [],
           "dbsqlTOs": [],
@@ -50,14 +49,13 @@
           "stepMQSendTOs": [],
           "stepMQAssertTOs": [],
           "customProjectTOS": [],
-          "customCodeTOS": [],
-          "mobileCustomCodeTOS": []
+          "customCodeTOS": []
         },
         {
           "id": "exuOD1d68c",
-          "description": "Then wait",
+          "description": "Then user should be logged in to the app",
           "scenarioId": "biO6T7XBM8",
-          "createdTimeStamp": "2022-02-22T16:57:58.545+0530",
+          "createdTimeStamp": "2022-03-09T17:04:50.528+0530",
           "pos": 196605,
           "dbConnectionTOs": [],
           "dbsqlTOs": [],
@@ -71,8 +69,7 @@
           "stepMQSendTOs": [],
           "stepMQAssertTOs": [],
           "customProjectTOS": [],
-          "customCodeTOS": [],
-          "mobileCustomCodeTOS": []
+          "customCodeTOS": []
         }
       ],
       "exampleTOs": [],
@@ -103,8 +100,7 @@
           "stepMQSendTOs": [],
           "stepMQAssertTOs": [],
           "customProjectTOS": [],
-          "customCodeTOS": [],
-          "mobileCustomCodeTOS": []
+          "customCodeTOS": []
         },
         {
           "id": "yydWqDfDMT",
@@ -124,8 +120,7 @@
           "stepMQSendTOs": [],
           "stepMQAssertTOs": [],
           "customProjectTOS": [],
-          "customCodeTOS": [],
-          "mobileCustomCodeTOS": []
+          "customCodeTOS": []
         },
         {
           "id": "QavMbMVPc3",
@@ -145,8 +140,7 @@
           "stepMQSendTOs": [],
           "stepMQAssertTOs": [],
           "customProjectTOS": [],
-          "customCodeTOS": [],
-          "mobileCustomCodeTOS": []
+          "customCodeTOS": []
         },
         {
           "id": "ZR460x0WZh",
@@ -166,8 +160,7 @@
           "stepMQSendTOs": [],
           "stepMQAssertTOs": [],
           "customProjectTOS": [],
-          "customCodeTOS": [],
-          "mobileCustomCodeTOS": []
+          "customCodeTOS": []
         }
       ],
       "exampleTOs": [],
@@ -198,8 +191,7 @@
           "stepMQSendTOs": [],
           "stepMQAssertTOs": [],
           "customProjectTOS": [],
-          "customCodeTOS": [],
-          "mobileCustomCodeTOS": []
+          "customCodeTOS": []
         },
         {
           "id": "joqtVD35kw",
@@ -219,8 +211,7 @@
           "stepMQSendTOs": [],
           "stepMQAssertTOs": [],
           "customProjectTOS": [],
-          "customCodeTOS": [],
-          "mobileCustomCodeTOS": []
+          "customCodeTOS": []
         },
         {
           "id": "Hf4V8iSLfi",
@@ -240,8 +231,7 @@
           "stepMQSendTOs": [],
           "stepMQAssertTOs": [],
           "customProjectTOS": [],
-          "customCodeTOS": [],
-          "mobileCustomCodeTOS": []
+          "customCodeTOS": []
         },
         {
           "id": "9KKDhB4zTR",
@@ -261,8 +251,7 @@
           "stepMQSendTOs": [],
           "stepMQAssertTOs": [],
           "customProjectTOS": [],
-          "customCodeTOS": [],
-          "mobileCustomCodeTOS": []
+          "customCodeTOS": []
         }
       ],
       "exampleTOs": [],
@@ -293,8 +282,7 @@
           "stepMQSendTOs": [],
           "stepMQAssertTOs": [],
           "customProjectTOS": [],
-          "customCodeTOS": [],
-          "mobileCustomCodeTOS": []
+          "customCodeTOS": []
         },
         {
           "id": "KXzuBBUfcO",
@@ -314,8 +302,7 @@
           "stepMQSendTOs": [],
           "stepMQAssertTOs": [],
           "customProjectTOS": [],
-          "customCodeTOS": [],
-          "mobileCustomCodeTOS": []
+          "customCodeTOS": []
         },
         {
           "id": "Gf13bNO5wc",
@@ -335,8 +322,7 @@
           "stepMQSendTOs": [],
           "stepMQAssertTOs": [],
           "customProjectTOS": [],
-          "customCodeTOS": [],
-          "mobileCustomCodeTOS": []
+          "customCodeTOS": []
         }
       ],
       "exampleTOs": [],

@@ -14,7 +14,7 @@
       "paramId": "Kef5TjvJ15",
       "action": "waitForElementPresent",
       "platform": "both",
-      "path": "\t //android.widget.Button[@content-desc\u003d\"Keep using memorable information\"]",
+      "path": "//android.widget.Button[@content-desc\u003d\"Keep using memorable information\"]",
       "value": "10000",
       "position": 0,
       "parentStepId": "574e9e444ab63abdf825ea31ad9376b2",
@@ -25,7 +25,7 @@
       "paramId": "B7UlGQvSro",
       "action": "click",
       "platform": "both",
-      "path": "\t //android.widget.Button[@content-desc\u003d\"Keep using memorable information\"]",
+      "path": "//android.widget.Button[@content-desc\u003d\"Keep using memorable information\"]",
       "value": "",
       "position": 0,
       "parentStepId": "574e9e444ab63abdf825ea31ad9376b2",
@@ -49,6 +49,5 @@
   "stepMQSendTOs": [],
   "stepMQAssertTOs": [],
   "customProjectTOS": [],
-  "customCodeTOS": [],
-  "mobileCustomCodeTOS": []
+  "customCodeTOS": []
 }

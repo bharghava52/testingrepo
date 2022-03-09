@@ -1,6 +1,6 @@
 {
   "id": "",
-  "description": "Given wait for the ui to load",
+  "description": "Then user should be logged in to the app",
   "scenarioId": "",
   "pos": 0,
   "dbConnectionTOs": [],
@@ -15,6 +15,5 @@
   "stepMQSendTOs": [],
   "stepMQAssertTOs": [],
   "customProjectTOS": [],
-  "customCodeTOS": [],
-  "mobileCustomCodeTOS": []
+  "customCodeTOS": []
 }
