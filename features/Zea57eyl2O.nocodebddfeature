@@ -1,0 +1,105 @@
+{
+  "id": "Zea57eyl2O",
+  "description": "try upload file",
+  "pos": 393210,
+  "createdTimeStamp": "2022-05-21T17:59:53.165+0530",
+  "scenarioTOS": [
+    {
+      "id": "aOgCC6A3VW",
+      "description": "given upload file and wait for response",
+      "featureId": "Zea57eyl2O",
+      "createdTimeStamp": "2022-05-21T18:00:06.346+0530",
+      "pos": 65535,
+      "stepTOS": [
+        {
+          "id": "zk1k48teu6",
+          "description": "Given upload the file",
+          "scenarioId": "aOgCC6A3VW",
+          "createdTimeStamp": "2022-05-21T18:00:27.180+0530",
+          "pos": 65535,
+          "dbConnectionTOs": [],
+          "dbsqlTOs": [],
+          "dbAssertTOs": [],
+          "uiTOs": [],
+          "uiAssertTOs": [],
+          "stepmobileUITOs": [],
+          "stepAssertSettingTOs": [],
+          "stepRESTURLSettingTOs": [],
+          "stepWaitTimeTOs": [],
+          "stepMQSendTOs": [],
+          "stepMQAssertTOs": [],
+          "customProjectTOS": [],
+          "customCodeTOS": [],
+          "restJsonPathAssertTOS": [],
+          "mobileCustomCodeTOS": []
+        },
+        {
+          "id": "UFrANMbl6U",
+          "description": "Then assert the uploaded file",
+          "scenarioId": "aOgCC6A3VW",
+          "createdTimeStamp": "2022-05-21T18:00:36.039+0530",
+          "pos": 131070,
+          "dbConnectionTOs": [],
+          "dbsqlTOs": [],
+          "dbAssertTOs": [],
+          "uiTOs": [],
+          "uiAssertTOs": [],
+          "stepmobileUITOs": [],
+          "stepAssertSettingTOs": [],
+          "stepRESTURLSettingTOs": [],
+          "stepWaitTimeTOs": [],
+          "stepMQSendTOs": [],
+          "stepMQAssertTOs": [],
+          "customProjectTOS": [],
+          "customCodeTOS": [],
+          "restJsonPathAssertTOS": [],
+          "mobileCustomCodeTOS": []
+        }
+      ],
+      "exampleTOs": [],
+      "tagTOs": []
+    },
+    {
+      "id": "roDCCmCiPA",
+      "description": "nice file upload",
+      "featureId": "Zea57eyl2O",
+      "createdTimeStamp": "2022-05-22T13:05:50.880+0530",
+      "pos": 131070,
+      "stepTOS": [
+        {
+          "id": "qDSjRrCiQ7",
+          "description": "Given test file",
+          "scenarioId": "roDCCmCiPA",
+          "createdTimeStamp": "2022-05-22T13:05:57.022+0530",
+          "pos": 65535,
+          "dbConnectionTOs": [],
+          "dbsqlTOs": [],
+          "dbAssertTOs": [],
+          "uiTOs": [],
+          "uiAssertTOs": [],
+          "stepmobileUITOs": [],
+          "stepAssertSettingTOs": [],
+          "stepRESTURLSettingTOs": [],
+          "stepWaitTimeTOs": [],
+          "stepMQSendTOs": [],
+          "stepMQAssertTOs": [],
+          "customProjectTOS": [],
+          "customCodeTOS": [],
+          "restJsonPathAssertTOS": [],
+          "mobileCustomCodeTOS": []
+        }
+      ],
+      "exampleTOs": [],
+      "tagTOs": []
+    }
+  ],
+  "tagTOs": [],
+  "jiraLinkTOs": [
+    {
+      "id": "8CgYbsjGXE",
+      "jiraId": "CP-1",
+      "featureId": "Zea57eyl2O",
+      "position": 1
+    }
+  ]
+}

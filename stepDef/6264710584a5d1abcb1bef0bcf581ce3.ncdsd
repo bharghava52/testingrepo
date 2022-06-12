@@ -1,0 +1,66 @@
+{
+  "id": "",
+  "description": "Given login into the salesforce app",
+  "scenarioId": "",
+  "pos": 0,
+  "dbConnectionTOs": [],
+  "dbsqlTOs": [],
+  "dbAssertTOs": [],
+  "uiTOs": [
+    {
+      "id": "BfDha7r68k",
+      "paramId": "mJUJGvhfjQ",
+      "command": "open",
+      "target": "https://ninisolutionslimited-dev-ed.lightning.force.com/lightning/r/Student2__c/a018d000004f5dGAAQ/view",
+      "value": "",
+      "position": 65535,
+      "createdTimeStamp": "2022-05-18T13:23:05.245+0530",
+      "parentStepId": "6264710584a5d1abcb1bef0bcf581ce3",
+      "params": []
+    },
+    {
+      "id": "BfDha7r68k",
+      "paramId": "2JYNSoKHFt",
+      "command": "type",
+      "target": "(//input[contains(@name, \u0027username\u0027)])",
+      "value": "jerome@nocodebdd.com",
+      "position": 65535,
+      "createdTimeStamp": "2022-05-18T13:23:05.250+0530",
+      "parentStepId": "6264710584a5d1abcb1bef0bcf581ce3",
+      "params": []
+    },
+    {
+      "id": "BfDha7r68k",
+      "paramId": "TLGNFIVLeW",
+      "command": "type",
+      "target": "(//input[contains(@name, \u0027pw\u0027)])",
+      "value": "Adm!n123",
+      "position": 65535,
+      "createdTimeStamp": "2022-05-18T13:23:05.252+0530",
+      "parentStepId": "6264710584a5d1abcb1bef0bcf581ce3",
+      "params": []
+    },
+    {
+      "id": "BfDha7r68k",
+      "paramId": "GN0BbUS49S",
+      "command": "click",
+      "target": "(//input[contains(@value, \u0027Log In\u0027)])",
+      "value": "",
+      "position": 65535,
+      "createdTimeStamp": "2022-05-18T13:23:05.253+0530",
+      "parentStepId": "6264710584a5d1abcb1bef0bcf581ce3",
+      "params": []
+    }
+  ],
+  "uiAssertTOs": [],
+  "stepmobileUITOs": [],
+  "stepAssertSettingTOs": [],
+  "stepRESTURLSettingTOs": [],
+  "stepWaitTimeTOs": [],
+  "stepMQSendTOs": [],
+  "stepMQAssertTOs": [],
+  "customProjectTOS": [],
+  "customCodeTOS": [],
+  "restJsonPathAssertTOS": [],
+  "mobileCustomCodeTOS": []
+}

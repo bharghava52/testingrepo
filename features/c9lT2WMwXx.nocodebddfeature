@@ -1,21 +1,21 @@
 {
-  "id": "m0NAgLLXfO",
-  "description": "Relax UI",
-  "pos": 65535,
-  "createdTimeStamp": "2022-02-02T19:59:52.657+0530",
+  "id": "c9lT2WMwXx",
+  "description": "test examples",
+  "pos": 131070,
+  "createdTimeStamp": "2022-05-05T19:53:11.204+0530",
   "scenarioTOS": [
     {
-      "id": "ALhtZmsIUb",
-      "description": "Make sure Relax ui is working",
-      "featureId": "m0NAgLLXfO",
-      "createdTimeStamp": "2022-02-02T19:59:58.833+0530",
+      "id": "8KY2JvPblG",
+      "description": "test scenario",
+      "featureId": "c9lT2WMwXx",
+      "createdTimeStamp": "2022-05-05T19:53:16.332+0530",
       "pos": 65535,
       "stepTOS": [
         {
-          "id": "Mhmmrr4XvV",
-          "description": "Given wait for the ui to load",
-          "scenarioId": "ALhtZmsIUb",
-          "createdTimeStamp": "2022-02-02T20:00:06.494+0530",
+          "id": "rChOSVwxhX",
+          "description": "Given test \"\u003cusername\u003e\" and \"\u003cpassword\u003e\"",
+          "scenarioId": "8KY2JvPblG",
+          "createdTimeStamp": "2022-05-05T19:53:38.056+0530",
           "pos": 65535,
           "dbConnectionTOs": [],
           "dbsqlTOs": [],
@@ -34,10 +34,10 @@
           "mobileCustomCodeTOS": []
         },
         {
-          "id": "x1XBawxW22",
-          "description": "Then go inside Relax app ui",
-          "scenarioId": "ALhtZmsIUb",
-          "createdTimeStamp": "2022-02-02T20:00:14.192+0530",
+          "id": "wZsch43P4N",
+          "description": "Then assert the \"\u003cvalue\u003e\"",
+          "scenarioId": "8KY2JvPblG",
+          "createdTimeStamp": "2022-05-05T19:54:04.388+0530",
           "pos": 131070,
           "dbConnectionTOs": [],
           "dbsqlTOs": [],
@@ -56,10 +56,24 @@
           "mobileCustomCodeTOS": []
         }
       ],
-      "exampleTOs": [],
+      "exampleTOs": [
+        {
+          "id": "41c7jSErmd",
+          "scenarioId": "8KY2JvPblG",
+          "columnNames": "[\"username\",\"password\",\"value\"]",
+          "rowId": "0",
+          "rowValues": "[\"username\",\"password\",\"value\"]"
+        }
+      ],
       "tagTOs": []
     }
   ],
-  "tagTOs": [],
+  "tagTOs": [
+    {
+      "id": "bOqJHsamTD",
+      "description": "test tag 1",
+      "createdTimeStamp": "2022-05-05T23:08:45.158+0530"
+    }
+  ],
   "jiraLinkTOs": []
 }

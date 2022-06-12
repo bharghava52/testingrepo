@@ -1,26 +1,26 @@
 {
   "id": "",
-  "description": "Given wait for the ui to load",
+  "description": "Then wait and see",
   "scenarioId": "",
   "pos": 0,
   "dbConnectionTOs": [],
   "dbsqlTOs": [],
   "dbAssertTOs": [],
-  "uiTOs": [],
-  "uiAssertTOs": [],
-  "stepmobileUITOs": [
+  "uiTOs": [
     {
-      "id": "8UlAZFHX2X",
-      "paramId": "1idDr2NlEY",
-      "action": "waitForElementPresent",
-      "platform": "both",
-      "path": "Flutter UI",
-      "value": "2000",
-      "position": 0,
-      "parentStepId": "67a39cc3e26bef87e7201b8b44d5165c",
+      "id": "nSNpaE1LBf",
+      "paramId": "BFlmWOniqM",
+      "command": "sleep",
+      "target": "4000",
+      "value": "",
+      "position": 65535,
+      "createdTimeStamp": "2022-05-18T13:25:16.384+0530",
+      "parentStepId": "77c94e31e15530aee830447ddaef7186",
       "params": []
     }
   ],
+  "uiAssertTOs": [],
+  "stepmobileUITOs": [],
   "stepAssertSettingTOs": [],
   "stepRESTURLSettingTOs": [],
   "stepWaitTimeTOs": [],

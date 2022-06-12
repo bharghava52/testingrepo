@@ -1,0 +1,44 @@
+{
+  "id": "",
+  "description": "Given test",
+  "scenarioId": "",
+  "pos": 0,
+  "dbConnectionTOs": [],
+  "dbsqlTOs": [],
+  "dbAssertTOs": [],
+  "uiTOs": [
+    {
+      "id": "1lNaw1Hdsm",
+      "paramId": "sVsc54Eorv",
+      "command": "open",
+      "target": "www.google.com",
+      "value": "",
+      "position": 65535,
+      "createdTimeStamp": "2022-05-16T18:45:24.393+0530",
+      "parentStepId": "098f6bcd4621d373cade4e832627b4f6",
+      "params": []
+    },
+    {
+      "id": "1lNaw1Hdsm",
+      "paramId": "gSmq4tmuOL",
+      "command": "title",
+      "target": "",
+      "value": "Google",
+      "position": 65535,
+      "createdTimeStamp": "2022-05-16T18:45:24.410+0530",
+      "parentStepId": "098f6bcd4621d373cade4e832627b4f6",
+      "params": []
+    }
+  ],
+  "uiAssertTOs": [],
+  "stepmobileUITOs": [],
+  "stepAssertSettingTOs": [],
+  "stepRESTURLSettingTOs": [],
+  "stepWaitTimeTOs": [],
+  "stepMQSendTOs": [],
+  "stepMQAssertTOs": [],
+  "customProjectTOS": [],
+  "customCodeTOS": [],
+  "restJsonPathAssertTOS": [],
+  "mobileCustomCodeTOS": []
+}

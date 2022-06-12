@@ -1,0 +1,29 @@
+<!doctype html>
+<html >
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/danialfarid-angular-file-upload/12.2.13/ng-file-upload.min.js"></script>
+    </head>
+    <body ng-app="mainApp" ng-controller="fileUploadController">
+        <button class="btn btn-danger active" ngf-select="UploadFiles($files)">Upload</button>
+        <div ng-repeat="file in filesList">
+            <h1 id="{{file}}">
+                {{file}}
+            </h1>
+        </div>
+        <script>
+            var mainApp = angular.module("mainApp", ['ngFileUpload']);
+
+            mainApp.controller('fileUploadController', function($scope, $timeout) {
+                $scope.filesList = [];
+                $scope.UploadFiles = function (files) {
+                    if(files){
+                        angular.forEach(files, function (file, arg) {
+                            $scope.filesList.push(file.name);
+                        });
+                    }
+                };
+            });
+        </script>
+    </body>
+</html>

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "gItcM3Dzrq",
+    "mqConnVirtualId": "y4TlaRseqS",
+    "connectionName": "Testing update new",
+    "hostName": "ABCD",
+    "port": "1234",
+    "channelName": "Test",
+    "mqManager": "Manager",
+    "mqUserName": "Bharathy",
+    "mqPassword": "12345",
+    "createdBy": "7a32b1d3-d9fe-4e71-99af-bf129912257b"
+  },
+  {
+    "id": "Z4k2DkGQuH",
+    "mqConnVirtualId": "fJPh83CHwk",
+    "connectionName": "UI M connection",
+    "hostName": "cx",
+    "port": "144",
+    "channelName": "sd",
+    "mqManager": "scs",
+    "mqUserName": "d",
+    "mqPassword": "111",
+    "createdBy": "7a32b1d3-d9fe-4e71-99af-bf129912257b"
+  },
+  {
+    "id": "qFp7bxGt3o",
+    "mqConnVirtualId": "GDIHn1ahB6",
+    "connectionName": "MQ",
+    "hostName": "localhost",
+    "port": "61616",
+    "channelName": "channel",
+    "mqManager": "manager",
+    "mqUserName": "root",
+    "mqPassword": "root",
+    "createdBy": "c127a7c8-24ba-44a3-9165-e22ea33f04b3"
+  }
+]

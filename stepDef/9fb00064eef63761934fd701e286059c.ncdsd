@@ -1,0 +1,55 @@
+{
+  "id": "",
+  "description": "Given upload the file",
+  "scenarioId": "",
+  "pos": 0,
+  "dbConnectionTOs": [],
+  "dbsqlTOs": [],
+  "dbAssertTOs": [],
+  "uiTOs": [
+    {
+      "id": "hVNtGM0KJt",
+      "paramId": "8M0qDV2fsA",
+      "command": "open",
+      "target": "file:///root/Documents/index.html",
+      "value": "",
+      "position": 65535,
+      "createdTimeStamp": "2022-05-21T23:22:29.662+0530",
+      "parentStepId": "9fb00064eef63761934fd701e286059c",
+      "params": []
+    },
+    {
+      "id": "hVNtGM0KJt",
+      "paramId": "PphYMPY2Wm",
+      "command": "waitForElementPresent",
+      "target": "/html/body/label/input",
+      "value": "3000",
+      "position": 65535,
+      "createdTimeStamp": "2022-05-21T23:22:29.674+0530",
+      "parentStepId": "9fb00064eef63761934fd701e286059c",
+      "params": []
+    },
+    {
+      "id": "hVNtGM0KJt",
+      "paramId": "4VSu7lMNFj",
+      "command": "type",
+      "target": "/html/body/label/input",
+      "value": "/root/Documents/index.html",
+      "position": 65535,
+      "createdTimeStamp": "2022-05-21T23:22:29.675+0530",
+      "parentStepId": "9fb00064eef63761934fd701e286059c",
+      "params": []
+    }
+  ],
+  "uiAssertTOs": [],
+  "stepmobileUITOs": [],
+  "stepAssertSettingTOs": [],
+  "stepRESTURLSettingTOs": [],
+  "stepWaitTimeTOs": [],
+  "stepMQSendTOs": [],
+  "stepMQAssertTOs": [],
+  "customProjectTOS": [],
+  "customCodeTOS": [],
+  "restJsonPathAssertTOS": [],
+  "mobileCustomCodeTOS": []
+}

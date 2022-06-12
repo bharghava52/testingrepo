@@ -1,0 +1,93 @@
+[
+  {
+    "id": "D5jp5l07un",
+    "connectionName": "Testing SQL DB new one",
+    "dbType": "MYSQL",
+    "hostName": "Test",
+    "port": "3306",
+    "databaseName": "SQL",
+    "userName": "Bharathy",
+    "password": "1235",
+    "stepId": "sIktcj4P1R",
+    "createdTimeStamp": "2021-07-14T17:46:39.983+0530",
+    "deleted": false
+  },
+  {
+    "id": "bH9tUY63C0",
+    "connectionName": "SQL",
+    "dbType": "MYSQL",
+    "hostName": "localhost",
+    "port": "3306",
+    "databaseName": "db",
+    "userName": "root",
+    "password": "root",
+    "stepId": "niUMppxax1",
+    "createdTimeStamp": "2021-09-15T16:56:28.530+0530",
+    "deleted": false
+  },
+  {
+    "id": "SQLC1001G",
+    "connectionName": "SQL test",
+    "dbType": "MYSQL",
+    "hostName": "localhost",
+    "port": "3306",
+    "databaseName": "db",
+    "userName": "root",
+    "password": "root",
+    "stepId": "ST100101G",
+    "createdTimeStamp": "2022-04-05T16:44:41.490+0530",
+    "deleted": false
+  },
+  {
+    "id": "SQLC1004G",
+    "connectionName": "Edit test",
+    "dbType": "MYSQL",
+    "hostName": "localhost",
+    "port": "3306",
+    "databaseName": "db",
+    "userName": "root",
+    "password": "root",
+    "stepId": "ST100401G",
+    "createdTimeStamp": "2022-04-05T16:48:33.133+0530",
+    "deleted": false
+  },
+  {
+    "id": "SQLC1005G",
+    "connectionName": "SQL test",
+    "dbType": "MYSQL",
+    "hostName": "localhost",
+    "port": "3306",
+    "databaseName": "db",
+    "userName": "root",
+    "password": "root",
+    "stepId": "ST100501G",
+    "createdTimeStamp": "2022-04-05T16:49:41.173+0530",
+    "deleted": false
+  },
+  {
+    "id": "SQLC1002G",
+    "connectionName": "Edit test",
+    "dbType": "MYSQL",
+    "hostName": "localhost",
+    "port": "3306",
+    "databaseName": "db",
+    "userName": "root",
+    "password": "root",
+    "stepId": "ST100301G",
+    "createdTimeStamp": "2022-04-05T16:47:18.067+0530",
+    "deleted": false
+  },
+  {
+    "id": "SQLC1006G",
+    "connectionName": "SQL test",
+    "dbType": "MYSQL",
+    "hostName": "localhost",
+    "port": "3306",
+    "databaseName": "db",
+    "userName": "root",
+    "password": "root",
+    "stepId": "ST100601G",
+    "createdTimeStamp": "2022-04-05T16:51:09.968+0530",
+    "deleted": false
+  }
+]

@@ -1,0 +1,60 @@
+{
+  "id": "",
+  "description": "Given test file",
+  "scenarioId": "",
+  "pos": 0,
+  "dbConnectionTOs": [],
+  "dbsqlTOs": [],
+  "dbAssertTOs": [],
+  "uiTOs": [],
+  "uiAssertTOs": [],
+  "stepmobileUITOs": [],
+  "stepAssertSettingTOs": [],
+  "stepRESTURLSettingTOs": [
+    {
+      "id": "slj1BNCoOL",
+      "httpMethod": "POST",
+      "url": "https://nocodebdd.com",
+      "requestBody": "",
+      "requestBodyType": "form-data",
+      "parentStepId": "f20d9f2072bbeb6691c0f9c5099b01f3",
+      "position": 65535,
+      "createdTimeStamp": "2022-05-22T13:29:44.702+0530",
+      "restParamTOs": [],
+      "restHeaderTOs": [
+        {
+          "id": "b9sokmjT34",
+          "key": "Content-Type",
+          "value": "application/form-data",
+          "stepRestUrlSettingId": "slj1BNCoOL",
+          "createdTimeStamp": "2022-05-22T13:29:44.702+0530"
+        },
+        {
+          "id": "CHgSslWpz6",
+          "key": "User-Agent",
+          "value": "NoCodeBDD",
+          "stepRestUrlSettingId": "slj1BNCoOL",
+          "createdTimeStamp": "2022-05-22T13:29:44.702+0530"
+        }
+      ],
+      "restMultiPartTOs": [
+        {
+          "id": "2O0jQBSn4g",
+          "key": "test",
+          "value": "",
+          "type": "file",
+          "filenames": "index.html",
+          "stepRestUrlSettingId": "slj1BNCoOL",
+          "createdTimeStamp": "2022-05-22T13:29:44.702+0530"
+        }
+      ]
+    }
+  ],
+  "stepWaitTimeTOs": [],
+  "stepMQSendTOs": [],
+  "stepMQAssertTOs": [],
+  "customProjectTOS": [],
+  "customCodeTOS": [],
+  "restJsonPathAssertTOS": [],
+  "mobileCustomCodeTOS": []
+}

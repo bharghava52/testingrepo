@@ -71,5 +71,7 @@
   "stepMQSendTOs": [],
   "stepMQAssertTOs": [],
   "customProjectTOS": [],
-  "customCodeTOS": []
+  "customCodeTOS": [],
+  "restJsonPathAssertTOS": [],
+  "mobileCustomCodeTOS": []
 }
